@@ -9,6 +9,9 @@
     "fault-tolerant"
   ],
   "description": "An auto-discovery mesh network framework for building fault-tolerant and scalable applications",
+  "scripts": {
+    "test": "ava"
+  },
   "author": {
     "name": "Armagan Amcalar",
     "email": "armagan@amcalar.com"
@@ -37,7 +40,11 @@
     "socket.io": "1.3.5"
   },
   "devDependencies": {
+    "ava": "^0.17.0",
+    "babel-cli": "^6.18.0",
+    "commander": "2.2.0",
+    "gulp-watch": "^4.3.11",
     "humanize-number": "0.0.2",
-    "commander": "2.2.0"
+    "log-suppress": "^1.0.3"
   }
 }
